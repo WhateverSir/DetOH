@@ -11,7 +11,7 @@ DetOH是一个基于热图的无锚点目标检测器，其主要特点是只使
 - `heatmap.py`：该文件包含了生成热图的代码。
 - `mAP.py`：该文件包含了计算平均精度（mean Average Precision，mAP）的代码。
 - `match.cpp`：该文件包含了匹配目标框和真实框的C++代码。
-- `mycenternet.py`：该文件包含了DetOH模型的实现代码。
+- `DetOH.py`：该文件包含了DetOH模型的实现代码。
 - `png2hdf5.py`：该文件包含了将PNG格式的图像转换为HDF5格式的代码。
 - `predict.py`：该文件包含了使用训练好的模型进行目标检测的代码。
 - `temp.py`：该文件包含了一些临时性的代码，供开发和调试使用。
