@@ -35,4 +35,4 @@ DetOH是一个基于热图的无锚点目标检测器，其主要特点是只使
 ## 参考文献
 
 - Zhou, X., Wang, D., & Krähenbühl, P. (2020). Objects as points. arXiv preprint arXiv:1904.07850.
-- Zhou, X., Wang, D., & Krähenbühl, P. (2019). Bottom-up object detection by grouping extreme and center points. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 850-859.
+- .
