@@ -35,4 +35,4 @@ DetOH是一个基于热图的无锚点目标检测器，其主要特点是只使
 ## 参考文献
 
 - Zhou, X., Wang, D., & Krähenbühl, P. (2020). Objects as points. arXiv preprint arXiv:1904.07850.
-- .
+- Wu Ruohao. DetOH: 仅使用热图的无锚点目标检测器[C]//2023 IEEE International Conference on Image Processing(ADMA). Shenyang, China, August 8-11, 2023.
