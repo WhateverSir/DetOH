@@ -8,7 +8,7 @@ import os
 import time
 import matplotlib.pylab as plt
 from model import my_cnn, stage2_cnn, ResNet, Wide_Deep, Fibo_Dense#, Unet
-from mycenternet import Unet, double_conv2d_bn, deconv2d_bn
+from DetOH import Unet, double_conv2d_bn, deconv2d_bn
 from shuffle_v2 import shuffle_Unet, double_conv2d_bn_sf, deconv2d_bn_sf
 from DeepLab import DeepLabV3Plus
 from thop import profile
