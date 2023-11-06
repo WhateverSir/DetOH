@@ -302,22 +302,6 @@ class Densenet(nn.Module):
         x = torch.cat([midx, F.interpolate(x, scale_factor=2)], 1)
         x = self.out_layer(F.interpolate(x, scale_factor=2))
         return torch.sigmoid(x)        
-class Fibo_2(nn.Module):
-    def __init__(self, input_channel, mid_channel, labels):
-        super(Fibo_2, self).__init__()
-        self.conv1 = nn.Conv2d(input_channel, mid_channel, kernel_size=3, stride=1, padding=1, bias=False)
-        self.Fibo = Fibo_block(in_channel=mid_channel, layer_num=6, labels=labels, grow_rate=0.75)
-        self.maxpool = nn.MaxPool2d(kernel_size=2, stride=2, padding=0)
-        self.Fibo2 = Fibo_block(in_channel=67, layer_num=8, labels=labels, grow_rate=0.382)
-        self.out_layer = nn.Conv2d(labels*2, labels, kernel_size=1, stride=1, padding=0)
-    def forward(self, x):
-        x = self.conv1(x)
-        x, midx = self.Fibo(x)
-        x = self.maxpool(x)
-        _temp, x = self.Fibo2(x)
-        x = torch.cat([midx, F.interpolate(x, scale_factor=2)], 1)
-        x = self.out_layer(x)
-        return torch.sigmoid(x)
 
 class small(nn.Module):
     def __init__(self, input_channel, mid_channel, layers, labels):
