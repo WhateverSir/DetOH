@@ -7,7 +7,7 @@ import torch
 import torch.nn as nn
 import matplotlib.pylab as plt
 
-from mycenternet import Unet, deconv2d_bn, double_conv2d_bn
+from DetOH import Unet, deconv2d_bn, double_conv2d_bn
 from predict import ctdet_decode, cal_wh2, cal_wh
 
 
