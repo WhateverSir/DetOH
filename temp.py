@@ -560,7 +560,7 @@ if __name__ == '__main__':
     plt.title('不同类别平均正确率曲线')
     plt.show()
     ##绘制热点图
-    # from mycenternet import get_heatmap
+    # from DetOH import get_heatmap
     # dst=np.zeros((135,72,3))
     # x=67
     # y=36
