@@ -14,6 +14,7 @@ DetOH是一个基于热图的无锚点目标检测器，其主要特点是只使
 
 - `README.md`：本文件，提供了项目的介绍和使用说明。
 - `backbonds.py`：该文件包含了骨干网络ResNet的实现代码。
+- `shuffle_v2.py`：该文件包含了骨干网络ShuffleNet/Shuffle-UNet的实现代码。
 - `model.py`：该文件包含了多个特征提取模型的实现代码。
 - `heatmap.py`：该文件包含了生成热图的代码。
 - `mAP.py`：该文件包含了计算平均精度（mean Average Precision，mAP）的代码。
