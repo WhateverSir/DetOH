@@ -37,7 +37,7 @@ DetOH是一个基于热图的无锚点目标检测器，其主要特点是只使
    
 请注意，训练DetOH模型可能需要较长时间，具体时间取决于您使用的数据集和计算机性能。
 
-## 参考文献
+## 引用
 
 - Wu Ruohao, et al. DetOH: An Anchor-Free Object Detector with Only Heatmaps[C]//International Conference on Advanced Data Mining and Applications. Cham: Springer Nature Switzerland, Shenyang, China, August 21-23, 2023: 152-167.
 - Zhou, X., Wang, D., & Krähenbühl, P. (2020). Objects as po ints. arXiv preprint arXiv:1904.07850.
