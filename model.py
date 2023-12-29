@@ -1,8 +1,6 @@
-from matplotlib.pyplot import xcorr
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-import math
 
 #二值化层定义
 class BinarizedF(torch.autograd.Function):
