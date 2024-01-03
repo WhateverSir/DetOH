@@ -5,7 +5,6 @@ import datetime
 import os
 import numpy as np
 import random
-from math import sqrt
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
