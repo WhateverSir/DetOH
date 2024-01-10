@@ -45,7 +45,6 @@ if __name__ == '__main__':
             img = cv2.imread('D:/coco/val2017/' + file[:-4]+ '.jpg')
             height, width, _ = img.shape
             if(height>width):
-                #cv2.imwrite('D:/coco/col/' + file[:-4] +'.jpg', cv2.resize(img, (360, 640), interpolation=cv2.INTER_AREA))
                 with open(dir+file,"r") as f:
                     data=[]
                     for line in f.readlines():
@@ -66,7 +65,6 @@ if __name__ == '__main__':
                         txt.writelines(data)          #将修改后的文本内容写入
                         txt.close()  # 关闭文件
             else:
-                #cv2.imwrite('D:/coco/row/' + file[:-4] +'.jpg', cv2.resize(img, (640, 360), interpolation=cv2.INTER_AREA))
                 with open(dir+file,"r") as f:
                     data=[]
                     for line in f.readlines():
