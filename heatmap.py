@@ -38,7 +38,7 @@ def get_h(numbers, img):
     return dst
 
 if __name__ == '__main__':
-    dir = 'D:/coco/labels/'#'D:/yolov5-master/yolov5-master/runs/detect/exp7/'
+    dir = 'D:/coco/labels/'
     file_list = os.listdir(dir)
     for file in file_list:
         if(file[0]=='0'):
