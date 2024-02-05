@@ -100,4 +100,4 @@ if __name__ == '__main__':
             #             #img[:,:,2] += get_h(numbers, img)
             # cv2.imwrite('D:/Download/tlabel/' + file[:-4] +'.png', (255*img).astype(np.uint8))
             # plt.imshow(img.astype(np.uint8))
-            # plt.show()C = numpy.where(A > B, A, B)
+            # plt.show()
